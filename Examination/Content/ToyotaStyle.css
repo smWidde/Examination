@@ -1,0 +1,43 @@
+﻿.top-bar {
+    display: flex;
+    height: 70px;
+    padding: 0 50px;
+    justify-content: space-between;
+}
+
+.logo {
+    align-items: center;
+    display: flex;
+}
+
+.logo_img {
+    display: flex;
+    flex-direction: column;
+}
+
+.adress {
+    display: flex;
+    position: relative;
+    left: 20px;
+    align-items: center;
+}
+
+.top-bar_info {
+    display: flex;
+    align-items: center;
+}
+
+.lang {
+    display: flex;
+}
+
+    .lang:hover .lang_item {
+        max-width: 50px;
+        padding: 5px;
+    }
+
+.lang_item {
+    color: red;
+    text-decoration: none;
+    overflow: hidden;
+}

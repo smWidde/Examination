@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Toyota.master.cs" Inherits="Examination.Pages.Toyota" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/Content/ToyotaStyle.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <div class="logo">
+                <div class="logo_img">
+                    <img src="https://toyota.com.ua/assets/img/logo-new.svg" />
+                    <img src="https://toyota.com.ua/assets/img/logo-text.svg" />
+                </div>
+                <div class="adress">
+                    <img src="https://toyota.com.ua/assets/img/i-header-map-pointer.svg" />
+                    <span style="position: relative; left: 10px;">Київ, Харківське шосе, 179</span>
+                </div>
+            </div>
+            <div class="top-bar_info">
+                <div class="lang">
+                    <a class="lang_item" style="display: block; color: red; border: 1px solid red; text-decoration: none" href="#">UA</a>
+                    <a class="lang_item" style="display: block; color: red; text-decoration: none" href="https://toyota.com.ua/ru/">RU</a>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <div>
+        <asp:ContentPlaceHolder ID="toyotaplace" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    <form id="form1" runat="server">
+    </form>
+</body>
+</html>
